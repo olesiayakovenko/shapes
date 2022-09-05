@@ -2,7 +2,7 @@ package com.oyakovenko.assignment8.shape;
 
 import java.awt.Color;
 
-public class Triangle extends Shapes {
+public class Triangle extends Shape {
     private Point a;
     private Point b;
     private Point c;

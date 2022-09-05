@@ -2,7 +2,7 @@ package com.oyakovenko.assignment8.shape;
 
 import java.awt.Color;
 
-public class Circle extends Shapes {
+public class Circle extends Shape {
     private Point center;
     private double radius;
     private Color color;

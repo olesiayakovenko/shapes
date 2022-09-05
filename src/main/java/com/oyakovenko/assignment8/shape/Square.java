@@ -2,7 +2,7 @@ package com.oyakovenko.assignment8.shape;
 
 import java.awt.Color;
 
-public class Square extends Shapes {
+public class Square extends Shape {
     private Point a;
     private double size;
     private Color color;

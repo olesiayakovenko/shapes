@@ -2,7 +2,7 @@ package com.oyakovenko.assignment8.shape;
 
 import java.awt.Color;
 
-public class Oval extends Shapes {
+public class Oval extends Shape {
     private Point center;
     private double width;
     private double height;

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Shapes> shapes = new ArrayList<>();
+        ArrayList<Shape> shapes = new ArrayList<>();
 
         Point a = new Point(0, 0);
         Point b = new Point(1, 1);
@@ -27,7 +27,7 @@ public class Main {
             System.err.println("Unacceptable value!");
         }
 
-        for (Shapes shape : shapes) {
+        for (Shape shape : shapes) {
             ShapePrinter.printShapeName(shape);
             System.out.println(shape + "\n");
         }
