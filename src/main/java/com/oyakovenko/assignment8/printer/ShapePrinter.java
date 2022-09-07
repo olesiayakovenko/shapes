@@ -4,7 +4,6 @@ import com.oyakovenko.assignment8.shape.Shape;
 
 public class ShapePrinter {
     public static void printShapeName(Shape shape) {
-        System.out.print("Shape name is ");
-        shape.printName();
+        System.out.println("Shape name is " + shape.getName());
     }
 }
